@@ -1,0 +1,6 @@
+PROJECT 50 V2 — UPDATE
+1. In your existing app, Profile > Backup > Export JSON. Save privately in Files.
+2. In the SAME GitHub repository, replace index.html and sw.js and add upgrade.js. Keep icon.png, icon512.png and manifest.json (included here). Do not change the website URL. Do not upload personal backup files.
+3. After GitHub Pages deploys, open your installed app online, close and reopen it. The service worker will update its cache. Do not delete the app or clear website data. If needed open the website online again. Check XP, coins, plants and history.
+4. Set notification backend separately using Project50-Push-Backend.zip. No push reminders will be sent before this setup and permission.
+V2 preserves the project50-v1 localStorage key and adds a v2 object. Existing plants remain in the original garden. New plants use a separate nursery. Weekly schedules apply only to future uncreated days. Photos are resized and stored locally, subject to browser storage limits. The game uses simple emoji sprites and pixel-inspired styling, not custom illustrated sprites. Boss battles are completion milestones rather than combat. Backup includes private pairing code; keep it private.
